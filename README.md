@@ -3,13 +3,6 @@
 
 Arduino program dedicate to control a 12V brushless compressor fridge.
 
-1. Compressor : 12V brushless : [Documentation](Pictures/2020_Doc_Compressor.pdf)
-2. Electronics devices for the control board : 
-- Temperature sensor : LM35.
-- ArduinoNano Board
-- Regulateur de tension 5-24V -> 5V
-3. Control board : ![image](Pictures/Control_Board.jpg)
-
 # Table of contents
 
 - [Usage](#usage)
@@ -17,6 +10,16 @@ Arduino program dedicate to control a 12V brushless compressor fridge.
 - [Support](#Support)
 - [Project Status](#project)
 - [License](#license)
+
+# Description
+
+1. Compressor : 12V brushless : [Documentation](Pictures/2020_Doc_Compressor.pdf)
+2. Electronics devices for the control board : 
+- Temperature sensor : LM35.
+- ArduinoNano Board
+- Regulateur de tension 5-24V -> 5V
+3. Control board : ![image](Pictures/Control_Board.jpg)
+
 
 # Usage
 
