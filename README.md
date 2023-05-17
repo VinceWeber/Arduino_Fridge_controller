@@ -20,12 +20,14 @@
 # Usage
 
 [(Back to top)](#table-of-contents)
+
 The programm is divided in severals functions :
-  Acquisition_capteurs() : 
-	This function let the arduino get the values of severals sensors :
-		- Several Temperature sensor (Compressor, Condensor, SeaWatercooling, inside the fridge, return of evaporator).
-		- CurrentFlow in A
-		- Status of one interuptor (0 or 1).
+
+##Acquisition_capteurs() : 
+This function let the arduino get the values of severals sensors :
+###Several Temperature sensor (Compressor, Condensor, SeaWatercooling, inside the fridge, return of evaporator).
+###CurrentFlow in A
+###Status of one interuptor (0 or 1).
   Etat_des_Alarmes():  
 		- Define the status of the device according to sensors values.
 		- Several level of alarm are defined:
