@@ -44,7 +44,7 @@ The programm is divided in severals functions :
 		-  Procedure dedicated to send data trought the serial port of the arduino.
 
 
- [See Notice](picures/Notice.pdf)	
+ [See Notice](Picures/Notice.pdf)	
 
 # Installation
 
