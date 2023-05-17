@@ -1,3 +1,4 @@
+
 # Fridge_Controller
 
   Arduino program dedicate to control a fridge on .
@@ -35,16 +36,16 @@ This function let the arduino get the values of severals sensors :
 1. Level 1 is the most critical and stops the compressor running until the user turn the device off.
 2. Level 2, 3 and 4 are information given to the user by LED blicking.
 
-  Force_Tem_SI_init_ou_inter_chg(Temps_Init_TEm):
-		-  Feature designed to redefine the Sea Temperature, it's called by actionning the interuptor.
-  Pilotage_Compresseur():
-		-  Procedure which define if compressor should run or not (according to Alarm status and sensors).
-  Pilotage_Pompe_eau():
-		-  Procedure which define if the water pump should run or not, a % of running time is defined according to the 			   distance between real temperature and temperature to be reach.
-  Affichage_Led():
-		- Procedure which define whether the LED has to be turned on or not. 
-  Sortie_Serie_2():
-		-  Procedure dedicated to send data trought the serial port of the arduino.
+  ## Force_Tem_SI_init_ou_inter_chg(Temps_Init_TEm):
+-  Feature designed to redefine the Sea Temperature, it's called by actionning the interuptor.
+  ## Pilotage_Compresseur():
+-  Procedure which define if compressor should run or not (according to Alarm status and sensors).
+ ## Pilotage_Pompe_eau():
+-  Procedure which define if the water pump should run or not, a % of running time is defined according to the  distance between real temperature and temperature to be reach.
+  ## Affichage_Led():
+- Procedure which define whether the LED has to be turned on or not. 
+ ## Sortie_Serie_2():
+-  Procedure dedicated to send data trought the serial port of the arduino.
 
 
  [See Notice](Pictures/Notice.pdf)	
